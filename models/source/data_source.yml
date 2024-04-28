@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: labs
+    database: striped-helper-421014  
+    tables:
+      - name: taxi_tripdata
+        tests:
+          - is_null
+            
+      
